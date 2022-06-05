@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css')}}">
+    <title>Stress Detection</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav" style="background-color: #f8f9fa;">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="{{url_for('static',filename='images/logo_full_stress_ai.png')}}" alt="" width="150" height="50">
+            </a>
+            <a class="nav-link" href="{{ url_for('index') }}" style="color:#002f4d">Home</a>
+            <a class="nav-link" href="{{ url_for('stressapp') }}" style="color:#002f4d">StressApp</a>
+        </nav>    
+    </div>
+    <br/>
+
+
+    {% block bodyblock %}
+    
+    {% endblock%}
+    <br/>
+    <footer class="footer">
+        <div class="container">
+            <footer class="d-flex justify-content-between align-items-center">    
+                <div class="align-items-center">
+                    <a href="/" >
+                        <img src="{{ url_for('static', filename='images/logo_blue_stress_ai.png')}}" alt="" width="120" height="40">
+                    </a>
+                </div>
+                <ul class="justify-content-end list-unstyled">
+                    <span align="center" style="color: white">2022 Stress AI &copy; All rights reserved.</span>
+                </ul>
+            </footer>
+        </div>
+    </footer>    
+
+    <style>
+        .footer{
+            position: fixed;
+            left:0;
+            bottom:0;
+            width: 100%;
+            background-color: #243CA0;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        };
+        .content{
+            color: #198b90;
+        }
+
+    </style>
+
+<!-- color codes -->
+<!-- Blue #243CA0 -->
+<!-- Orange #FC9D25 -->
+<!-- dark blue #002f4d -->
+<!-- light blue #198b90 -->
+<!-- light gray #f8f9fa -->
+</body>
+</html>
