@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/fab3ef08-9d6b-45d5-9d1f-c2b883bc058d/microsoft.web/sites/subscriptions/fab3ef08-9d6b-45d5-9d1f-c2b883bc058d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/StressAI",
+    "appService.deploySubpath": "."
+}
