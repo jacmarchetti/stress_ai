@@ -1,3 +1,4 @@
+
 # Python to Linux Web App on Azure
 # Build your Python project and deploy it to Azure as a Linux Web App.
 # Change python version to one thats appropriate for your application.
@@ -38,7 +39,8 @@ stages:
         versionSpec: '$(pythonVersion)'
       displayName: 'Use Python $(pythonVersion)'
 
-    - script: |
+    - script: 
+        ls
         python -m venv antenv
         source antenv/bin/activate
         ls
