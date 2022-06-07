@@ -1,3 +1,4 @@
+ipykernel 
 flask 
 opencv-python 
 pillow 
@@ -5,9 +6,6 @@ pandas
 matplotlib 
 ipykernel 
 nbconvert 
-notebook 
-<<<<<<< HEAD
+notebook
 tensorflow
-=======
-tensorflow
->>>>>>> 80db94aaa68ccc5b044fcc97f22a28310fe424b3
+
