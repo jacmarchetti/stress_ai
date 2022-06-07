@@ -1,0 +1,9 @@
+flask 
+opencv-python 
+pillow 
+pandas 
+matplotlib 
+ipykernel 
+nbconvert 
+notebook 
+tensorflow
