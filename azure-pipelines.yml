@@ -38,13 +38,7 @@ stages:
       inputs:
         versionSpec: '$(pythonVersion)'
       displayName: 'Use Python $(pythonVersion)'
-    - task: CmdLine@2
-      inputs:
-        script: |
-          echo Write your commands here
-          echo Hello world
-          ls
-    - script: 
+    - script: |
         python -m venv antenv
         source antenv/bin/activate
         python -m pip install --upgrade pip
@@ -52,7 +46,7 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
-
+    
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
