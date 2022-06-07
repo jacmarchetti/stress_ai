@@ -51,7 +51,6 @@ stages:
       displayName: "Install dependencies"
       
     - script: |
-        ls
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
