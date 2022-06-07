@@ -46,7 +46,7 @@ stages:
     
     - script: |
         python -m pip install --upgrade pip setuptools wheel
-        pip install setup
+
       workingDirectory: $(projectRoot)
       displayName: "Install dependencies"
       
