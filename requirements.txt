@@ -6,4 +6,8 @@ matplotlib
 ipykernel 
 nbconvert 
 notebook 
+<<<<<<< HEAD
 tensorflow
+=======
+tensorflow
+>>>>>>> 80db94aaa68ccc5b044fcc97f22a28310fe424b3
