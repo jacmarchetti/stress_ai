@@ -11,5 +11,4 @@ app.add_url_rule('/stressapp/stress/<filename>/<status>','video',views.video,met
 
 # run
 if __name__ == "__main__":
-#    app.run(debug=True)
-    app.run(debug=False,host='0.0.0.0')
+    app.run()
