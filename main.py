@@ -1,5 +1,5 @@
 from flask import Flask
-from app import views
+import app.views as views
 app = Flask(__name__)
 
 # url
