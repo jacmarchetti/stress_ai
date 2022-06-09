@@ -95,7 +95,3 @@ stages:
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
               # Thefollowing parameter is specific to the Flask example code. You may
               # or may not need a startup command for your app.
-
-              startUpCommand: 'gunicorn --bind=0.0.0.0 main:app'
-
-          
