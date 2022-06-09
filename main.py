@@ -1,5 +1,5 @@
 from flask import Flask
-import app.views as views
+import stress.views as views
 app = Flask(__name__)
 
 # url

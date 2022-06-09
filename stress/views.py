@@ -2,7 +2,7 @@ from flask import render_template,request,Response
 from flask import redirect,url_for
 import os
 from PIL import Image
-from app.utils import classify_image,classify_video
+from stress.utils import classify_image,classify_video
 #import cv2
 
 # Settings
