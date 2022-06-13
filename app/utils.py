@@ -8,8 +8,8 @@ import tensorflow as tf
 from tensorflow import keras
 
 # loading models
-haar = cv2.CascadeClassifier('./model/haarcascade_frontalface_default.xml')
-classification_model = tf.keras.models.load_model('model/vgg16_model_1.h5')
+haar = cv2.CascadeClassifier('./static/model/haarcascade_frontalface_default.xml')
+classification_model = tf.keras.models.load_model('static/model/vgg16_model_1.h5')
 print('Model loaded sucessfully ...')
 
 # Settings
