@@ -1,6 +1,7 @@
 from flask import Flask
 import app.views as views
 app = Flask(__name__)
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 # url
 app.add_url_rule('/base','base',views.base)
